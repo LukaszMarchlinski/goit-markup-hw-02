@@ -1,0 +1,111 @@
+.logo1 {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo2 {
+    color:#000000;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo3 {
+    color:#FFFFFF;
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+.agency {
+    color: #2196F3;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
+.portfolio {
+    color:#212121;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
+.contact {
+    color:#212121;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
+.mail {
+    color: #2196F3;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
+.tel {
+    color: #757575;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
+.bacground {
+    background-color: #2F303A;
+    background-size:auto;
+
+}
+.heading {
+    color: #FFFFFF;
+    font-size: 44px;
+    background-color: #2F303A;
+    font-family: 'Roboto', sans-serif; font-weight: 900;
+}
+.button {
+    color: #2196F3;
+}
+.subtitle {
+    color: #212121;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 700;
+}
+.text1 {
+    color: #757575;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 400;
+}.title {
+    color: #212121;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif; font-weight: 700;
+}
+.personal {
+    color: #212121;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;  
+}
+.position {
+    color: #757575;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; font-weight: 400; 
+}
+.bacgroundfooter {
+    background-color: #2F303A;
+    background-size: auto;
+}
+.adres {
+    font-style: normal;
+}
+.address1 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 400; 
+    text-decoration: none;
+}
+.footermail {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 400; 
+}
+.footertel {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 400; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type:none
+}
