@@ -106,8 +106,9 @@ body {
     color: #FFFFFF;
     font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 400; 
+    
 }
-.footertel {
+.footertel{
     color: #FFFFFF;
     font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 400;
@@ -126,18 +127,43 @@ body {
     border: none;
     cursor: pointer;
 }
-a:hover {
-    color: #2196F3;
-}
+
 .button1:hover{
     color:#FFFFFF;
     background-color: #2196F3;
 }
-
+.agency:hover {
+    color: #2196F3;
+}
+.agency1:hover {
+    color: #2196F3;
+}
+.portfolio:hover {
+    color: #2196F3;
+}
+.contact:hover {
+    color: #2196F3;
+}
+.portfolio1:hover {
+    color: #2196F3;
+}
+.footermail:hover {
+    color: #2196F3;
+}
+.footertel:hover {
+    color:#2196F3
+}
+.teleaddress:hover {
+    color: #2196F3;
+}
 a {
     text-decoration: none;
     color: black;
 }
+a:visited {
+    color: none;
+}
+
 
 ul {
     list-style-type:none
