@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
 .logo1 {
     color: #2196F3;
     font-size: 26px;
@@ -18,8 +22,18 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
+.agency1 {
+    color:#212121;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
 .portfolio {
     color:#212121;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+}
+.portfolio1 {
+    color:#2196F3;
     font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
@@ -28,20 +42,16 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
-.mail {
-    color: #2196F3;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif; font-weight: 500;
-}
-.tel {
+.teleaddress {
     color: #757575;
     font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
+.colorcursor:hover {
+    color:#2196F3
+}
 .bacground {
-    background-color: #2F303A;
-    background-size:auto;
-
+    background-color: #2F303A;  width:1600px; height:600px
 }
 .heading {
     color: #FFFFFF;
@@ -50,7 +60,11 @@
     font-family: 'Roboto', sans-serif; font-weight: 900;
 }
 .button {
-    color: #2196F3;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; font-weight: 700;
+    background-color: #2196F3; width:200px; height:50px;
+    cursor: pointer;
 }
 .subtitle {
     color: #212121;
@@ -77,8 +91,7 @@
     font-family: 'Roboto', sans-serif; font-weight: 400; 
 }
 .bacgroundfooter {
-    background-color: #2F303A;
-    background-size: auto;
+    background-color: #2F303A; width:1600px; height:252px
 }
 .adres {
     font-style: normal;
@@ -97,8 +110,28 @@
 .footertel {
     color: #FFFFFF;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif; font-weight: 400; 
-    
+    font-family: 'Roboto', sans-serif; font-weight: 400;
+}
+
+.category {
+    color:#212121;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; font-weight: 700;
+}
+.button1 {
+    color:#212121;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; font-weight: 500;
+    background-color:#F5F4FA; height: 38px;
+    border: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #2196F3;
+}
+.button1:hover{
+    color:#FFFFFF;
+    background-color: #2196F3;
 }
 
 a {
