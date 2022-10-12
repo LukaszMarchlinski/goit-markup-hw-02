@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    font-size: 14px;
 }
 .logo1 {
     color: #2196F3;
@@ -19,32 +20,23 @@ body {
 }
 .agency {
     color: #2196F3;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
 .agency1 {
-    color:#212121;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
 .portfolio {
-    color:#212121;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
 .portfolio1 {
     color:#2196F3;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
 .contact {
-    color:#212121;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
 .teleaddress {
     color: #757575;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 500;
 }
 .colorcursor:hover {
@@ -67,13 +59,10 @@ body {
     cursor: pointer;
 }
 .subtitle {
-    color: #212121;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 700;
 }
 .text1 {
     color: #757575;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 400;
 }.title {
     color: #212121;
@@ -81,7 +70,6 @@ body {
     font-family: 'Roboto', sans-serif; font-weight: 700;
 }
 .personal {
-    color: #212121;
     font-size: 16px;
     font-family: 'Roboto', sans-serif; font-weight: 500;  
 }
@@ -98,24 +86,20 @@ body {
 }
 .address1 {
     color: #FFFFFF;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 400; 
     text-decoration: none;
 }
 .footermail {
     color: #FFFFFF;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 400; 
     
 }
 .footertel{
     color: #FFFFFF;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif; font-weight: 400;
 }
 
 .category {
-    color:#212121;
     font-size: 18px;
     font-family: 'Roboto', sans-serif; font-weight: 700;
 }
