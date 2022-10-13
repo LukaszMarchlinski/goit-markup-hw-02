@@ -1,148 +1,164 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--dark);
     font-size: 14px;
+    background-color: var(--white);
+    line-height: 1,25;
+}
+:root {
+    --black: #000000;
+    --blue: #2196F3;
+    --white:#FFFFFF;
+    --gray: #757575;
+    --dark: #212121;
+    --bacground: #2F303A;
+    --lightgray: #F5F4FA;
 }
 .logo1 {
-    color: #2196F3;
+    color: var(--blue);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
 }
 .logo2 {
-    color:#000000;
+    color:var(--black);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
 }
 .logo3 {
-    color:#FFFFFF;
+    color:var(--white);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
 }
 .agency {
-    color: #2196F3;
-    font-family: 'Roboto', sans-serif; font-weight: 500;
+    color: var(--blue);
+    font-weight: 500;
 }
 .agency1 {
-    font-family: 'Roboto', sans-serif; font-weight: 500;
+    font-weight: 500;
 }
 .portfolio {
-    font-family: 'Roboto', sans-serif; font-weight: 500;
+    font-weight: 500;
 }
 .portfolio1 {
-    color:#2196F3;
-    font-family: 'Roboto', sans-serif; font-weight: 500;
+    color: var(--blue);
+    font-weight: 500;
 }
 .contact {
-    font-family: 'Roboto', sans-serif; font-weight: 500;
+    font-weight: 500;
 }
 .teleaddress {
-    color: #757575;
-    font-family: 'Roboto', sans-serif; font-weight: 500;
+    color: var(--gray);
+    font-weight: 500;
 }
 .colorcursor:hover {
-    color:#2196F3
+    color:var(--blue);
 }
 .bacground {
-    background-color: #2F303A;  width:1600px; height:600px
+    background-color: var(--bacground);  width:1600px; height:600px
 }
 .heading {
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 44px;
-    background-color: #2F303A;
-    font-family: 'Roboto', sans-serif; font-weight: 900;
+    background-color: var(--bacground);
+    font-weight: 900;
 }
 .button {
-    color:#FFFFFF;
+    color: var(--white);
     font-size: 16px;
-    font-family: 'Roboto', sans-serif; font-weight: 700;
-    background-color: #2196F3; width:200px; height:50px;
+   font-weight: 700;
+    background-color: var(--blue);
+    width:200px; height:50px;
     cursor: pointer;
+    border: none;
 }
 .subtitle {
-    font-family: 'Roboto', sans-serif; font-weight: 700;
+    font-weight: 700;
 }
 .text1 {
-    color: #757575;
-    font-family: 'Roboto', sans-serif; font-weight: 400;
+    color: var(--gray);
+    font-weight: 400;
 }.title {
-    color: #212121;
+    color: var(--dark);
     font-size: 36px;
     font-family: 'Roboto', sans-serif; font-weight: 700;
 }
 .personal {
     font-size: 16px;
-    font-family: 'Roboto', sans-serif; font-weight: 500;  
+    font-weight: 500;  
 }
 .position {
-    color: #757575;
+    color: var(--gray);
     font-size: 16px;
-    font-family: 'Roboto', sans-serif; font-weight: 400; 
+    font-weight: 400; 
 }
 .bacgroundfooter {
-    background-color: #2F303A; width:1600px; height:252px
+    background-color: var(--bacground); 
+    width:1600px; height:252px
 }
 .adres {
     font-style: normal;
 }
 .address1 {
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif; font-weight: 400; 
+    color: var(--white);
+    font-weight: 400; 
     text-decoration: none;
 }
 .footermail {
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif; font-weight: 400; 
+    color: var(--white);
+    opacity: 60%;
+    font-weight: 400; 
     
 }
 .footertel{
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif; font-weight: 400;
+    color: var(--white);
+    opacity: 60%;
+    font-weight: 400;
 }
 
 .category {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif; font-weight: 700;
+    font-weight: 700;
 }
 .button1 {
-    color:#212121;
+    color:var(--dark);
     font-size: 16px;
-    font-family: 'Roboto', sans-serif; font-weight: 500;
-    background-color:#F5F4FA; height: 38px;
+    font-weight: 500;
+    background-color: var(--lightgray); height: 38px;
     border: none;
     cursor: pointer;
 }
 
 .button1:hover{
-    color:#FFFFFF;
-    background-color: #2196F3;
+    color:var(--white);
+    background-color: var(--blue);
 }
 .agency:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .agency1:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .portfolio:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .contact:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .portfolio1:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .footermail:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 .footertel:hover {
-    color:#2196F3
+    color: var(--blue);
 }
 .teleaddress:hover {
-    color: #2196F3;
+    color: var(--blue);
 }
 a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 a:visited {
     color: none;
